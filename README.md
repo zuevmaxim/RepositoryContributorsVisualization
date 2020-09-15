@@ -17,7 +17,7 @@ A small research showed that it is impossible to use GitHub GraphQL for requesti
 ## Feature extraction
 
 Feature list for every contributor is a distribution of changes he or she made to files of project.
-For example, if a contributor made 20% of changes in file A, 30% of his or her overall changes in file B, 50% of changes in file C, and 0% in other files, the corresponding feature list is [0.2, 0.3, 0.5, 0.0, ... 0.0].
+For example, if a contributor made 20% of his or her overall changes in file A, 30% of changes in file B, 50% of changes in file C, and 0% in other files, the corresponding feature list is [0.2, 0.3, 0.5, 0.0, ... 0.0].
 
 This solution iterates over all commits and counts changes in every file for every contributor.
 
