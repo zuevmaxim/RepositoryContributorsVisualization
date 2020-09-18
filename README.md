@@ -4,8 +4,8 @@ This project visualizes relationships of contributors in [Facebook react project
 
 ## Run project
 1. clone this repo
-2. run `python3 main.py`
-3. some python packages installation may be needed(sklearn, networkx, numpy) - use pip3
+2. install dependencies by running `pip install -r requirements.txt`
+3. run `python3 main.py`
 
 This solution clones react project and iterates over all commits, so it may take some time(2 minutes for cloning and 3 minutes for iterating).  
 Cache is saved, so next runs will be fast.
